@@ -1,0 +1,12 @@
+CC = tcc
+LD = $CC
+
+NAME = mix
+
+ROOT = $HOME/local
+BIN = $ROOT/bin
+SHARE = $ROOT/share
+MAN = $SHARE/man/
+
+CFLAGS = -Wall
+LDFLAGS = -lm

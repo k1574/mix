@@ -1,0 +1,10 @@
+# mix
+mix - mix two threads of floats
+## Installation
+To install run:
+``
+	$ mk install
+``
+By default installtion happens into "$HOME/local/bin". Can be changed in "mkconfig" file'
+
+It gets as input binary values from every file and sums them. After it goes to the standard output.
